@@ -31,4 +31,5 @@ The Sentiment analysis of Tweet are to be done, before doing so several steps ar
 
 # Conclusion
 
-Logistic Regression and SVM gives the best accuracy, recall, precision and F1 score compared to all other models in multiclass (5 sentiment) dataset. Both of them gives a 0.62 F1 score. Logistic Regression gives a best accuracy, recall, precision and F1 score compared to all other models in multiclass (3 sentiment) dataset. It gives a 0.80 F1 score.
+* Logistic Regression and SVM gives the best accuracy, recall, precision and F1 score compared to all other models in multiclass (5 sentiment) dataset. Both of them gives a 0.62 F1 score. 
+* Logistic Regression gives a best accuracy, recall, precision and F1 score compared to all other models in multiclass (3 sentiment) dataset. It gives a 0.80 F1 score.
