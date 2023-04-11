@@ -27,7 +27,16 @@ null value treatment as it is not part of the independent variable.
 * All of top 5 tweets come from parts of UK and USA.
 
 # Process
-The Sentiment analysis of Tweet are to be done, before doing so several steps are to be done i.e. cleaning of the Original tweet or text are to be done before transformation of the data to vectorized form. For the given data the following transformations are done like removing URLs, removing values with username attached, tokenize the text (split the text into words) and then removing punctuations and special character, removing words with length less than or equal to 2, Removing useless stop words like ‘the’, ‘a’,’ this’ etc., Lemmatize the text and stemming.  Dataset is split into two: train dataset and test dataset for the classification analysis. Then the text was converted from words into numbers by the process called Vectorization. The two types of vectorizations used are Count Vectorizer and TF-IDF Vectorizer. The dataset is then experimented with various models like Logistic Regression, Naive Bayes Classifier (both Bernoulli’s and Multinomial), XG Boost, Random Forest and SVM. The evaluation metrics used here for checking the predicted model accuracy are Accuracy score, recall, precision and F1 score. 
+The Sentiment analysis of Tweet are to be done, before doing so several steps are to be done i.e. cleaning of the Original tweet or text are to be done before transformation of the data to vectorized form.
+For the given data the following transformations are done like
+* Removing URLs,
+* Removing values with username attached,
+* Tokenize the text (split the text into words) 
+* Removing punctuations and special character
+* Removing words with length less than or equal to 2
+* Removing useless stop words like ‘the’, ‘a’,’ this’ etc.
+* Lemmatize the text and stemming.
+Dataset is split into two: train dataset and test dataset for the classification analysis. Then the text was converted from words into numbers by the process called Vectorization. The two types of vectorizations used are Count Vectorizer and TF-IDF Vectorizer. The dataset is then experimented with various models like Logistic Regression, Naive Bayes Classifier (both Bernoulli’s and Multinomial), XG Boost, Random Forest and SVM. The evaluation metrics used here for checking the predicted model accuracy are Accuracy score, recall, precision and F1 score. 
 
 # Conclusion
 
