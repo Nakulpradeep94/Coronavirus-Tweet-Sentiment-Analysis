@@ -36,6 +36,8 @@ For the given data the following transformations are done like
 * Removing words with length less than or equal to 2
 * Removing useless stop words like ‘the’, ‘a’,’ this’ etc.
 * Lemmatize the text and stemming.
+
+
 Dataset is split into two: train dataset and test dataset for the classification analysis. Then the text was converted from words into numbers by the process called Vectorization. The two types of vectorizations used are Count Vectorizer and TF-IDF Vectorizer. The dataset is then experimented with various models like Logistic Regression, Naive Bayes Classifier (both Bernoulli’s and Multinomial), XG Boost, Random Forest and SVM. The evaluation metrics used here for checking the predicted model accuracy are Accuracy score, recall, precision and F1 score. 
 
 # Conclusion
